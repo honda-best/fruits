@@ -98,9 +98,13 @@ function filterFruits(result) {
 };
 
 filterButton.addEventListener('click', () => {
-  document.getElementById('fruits__list').innerText = "";
-  filterFruits(fruits);
-  display(fruits);
+  if ((filterMin.value == '') || (filterMax.value == '')) {
+    alert('Заполните все строки');
+  } else {
+    document.getElementById('fruits__list').innerText = "";
+    filterFruits(fruits);
+    display(fruits);
+  }
 });
 
 

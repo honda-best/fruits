@@ -103,6 +103,9 @@ main {
   .fruits__wrapper {
     flex-basis: 20%;
     font-size: 14px; }
+    body {
+      margin: 0 0;
+      font-size: 14px; }
 }
 
 .panel__devtools {
