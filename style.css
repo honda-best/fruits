@@ -106,7 +106,18 @@ main {
     body {
       margin: 0 0;
       font-size: 14px; }
+   .fruit__item {
+    font-size: 14px; }
+    .fruits__title {
+      font-size: 16px;
+    }
+    .fruits__title {
+      margin-bottom: -10px;}
 }
+@media (min-width: 700px) {
+.mweight__input {
+  display: flex;
+}}
 
 .panel__devtools {
   display: flex;
