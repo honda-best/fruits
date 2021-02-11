@@ -92,7 +92,15 @@ main {
     flex-basis: 50%;
   }
   .fruits__wrapper {
-    flex-basis: 70%; }
+    flex-basis: 50%; }
+}
+
+@media (max-width: 700px) {
+  .panel__wrapper {
+    flex-basis: 80%;
+  }
+  .fruits__wrapper {
+    flex-basis: 20%; }
 }
 
 .panel__devtools {
