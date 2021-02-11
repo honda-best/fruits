@@ -198,6 +198,7 @@ addActionButton.addEventListener('click', () => {
   document.getElementById('fruits__list').innerText = "";
   if ((kindInput.value == '') || (weightInput.value == '')) {
     alert('Заполните все строки');
+    display(fruits);
   } else {
     let newElement = { kind: kindInput.value, color: colorInput.value, weight: weightInput.value };
     fruits.push(newElement);
