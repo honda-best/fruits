@@ -98,9 +98,11 @@ main {
 @media (max-width: 700px) {
   .panel__wrapper {
     flex-basis: 80%;
+    font-size: 14px;
   }
   .fruits__wrapper {
-    flex-basis: 20%; }
+    flex-basis: 20%;
+    font-size: 14px; }
 }
 
 .panel__devtools {
