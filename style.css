@@ -87,6 +87,14 @@ main {
   overflow-y: scroll;
 }
 
+@media (max-width: 1100px) {
+  .panel__wrapper {
+    flex-basis: 50%;
+  }
+  .fruits__wrapper {
+    flex-basis: 70%; }
+}
+
 .panel__devtools {
   display: flex;
   flex-direction: column;
