@@ -123,11 +123,11 @@ main {
 .fruits__wrapper {
   flex-basis: 70%;
   max-height: inherit;
-  overflow: hidden;
   font-weight: 700;
   font-size: 20px;
   background-image: url('https://img-fotki.yandex.ru/get/6444/137106206.2d8/0_b96f4_e4d33fa4_XXL.jpeg.jpg');
   background-position: 0 30px;
+  overflow-y: scroll;
 }
 
 .fruits__cont {
